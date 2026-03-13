@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background: #f3f7fb;
+}
+
+
+/* HEADER */
+
+header {
+    background: linear-gradient(90deg, #2196f3, #42a5f5);
+    padding: 15px 60px;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.menu li {
+    cursor: pointer;
+}
+
+
+
+/* HERO */
+
+.hero {
+    background: linear-gradient(90deg, #ffd54f, #ffb300);
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.hero button {
+    padding: 14px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background: #ff5722;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* FEATURED */
+
+.featured {
+    padding: 70px 60px;
+    text-align: center;
+}
+
+.featured h2 {
+    margin-bottom: 40px;
+}
+
+.card-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 320px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-text {
+    padding: 20px;
+}
+
+
+
+/* CATEGORIES */
+
+.categories {
+    padding: 70px;
+    text-align: center;
+}
+
+.category-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.cat {
+    padding: 20px 40px;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.blue {
+    background: #2196f3;
+}
+
+.orange {
+    background: #ff9800;
+}
+
+.green {
+    background: #4caf50;
+}
+
+.yellow {
+    background: #ffc107;
+}
+
+.purple {
+    background: #673ab7;
+}
+
+
+
+/* VIDEO */
+
+.videos {
+    padding: 70px 60px;
+    text-align: center;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
